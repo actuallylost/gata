@@ -1,5 +1,5 @@
 [package]
-name = "regez"
+name = "gata"
 version = "0.0.1"
 authors = ["actuallylost"]
 readme = "README.md"
@@ -8,7 +8,10 @@ edition = "2021"
 publish = true
 
 [workspace]
-members = ["crates/*"]
+members = ["crates/*", "examples/*"]
+
+# TODO: Add features
+[features]
 
 [[test]]
 path = "tests/lib.rs"

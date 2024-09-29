@@ -1,4 +1,4 @@
-# Regez
+# Gata
 
 An easy-to-use regular expression crate built in Rust.
 
