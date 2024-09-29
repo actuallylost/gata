@@ -8,15 +8,17 @@ edition = "2021"
 publish = true
 
 [workspace]
-members = [
-    "crates/*",
-]
+members = ["crates/*"]
 
 [[test]]
 path = "tests/lib.rs"
 
 [profile.release]
-debug = true
+lto = true
+opt-level = 3
+codegen-units = 1
+incremental = false
+debug = false
 
 [profile.dev]
 opt-level = 3
