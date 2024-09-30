@@ -3,7 +3,7 @@ name = "gata"
 version = "0.0.1"
 authors = ["actuallylost"]
 readme = "README.md"
-repository = "https://github.com/actuallylost/regez"
+repository = "https://github.com/actuallylost/gata"
 edition = "2021"
 publish = true
 
@@ -13,8 +13,8 @@ members = ["crates/*", "examples/*"]
 # TODO: Add features
 [features]
 
-[[test]]
-path = "tests/lib.rs"
+# [[test]]
+# path = "tests/lib.rs"
 
 [profile.release]
 lto = true
