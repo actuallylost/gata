@@ -1,0 +1,6 @@
+[package]
+name = "gata_patterns"
+version = "0.1.0"
+authors = ["actuallylost"]
+readme = "README.md"
+edition = "2021"
