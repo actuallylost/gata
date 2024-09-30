@@ -1,9 +1,9 @@
-// use Gata::prelude::*;
+// use Gata::patterns::is_email;
 
 fn main() {
-    let input = Gata::new("email@example.com");
+    let input = "email@example.com";
 
-    match input.is_email() {
+    match is_email(input) {
         Ok(val) => val,
         Err(err) => panic!("{err}"),
     };
