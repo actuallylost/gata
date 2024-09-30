@@ -1,6 +1,6 @@
 [package]
 name = "gata"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["actuallylost"]
 readme = "README.md"
 repository = "https://github.com/actuallylost/gata"
@@ -12,9 +12,6 @@ members = ["crates/*", "examples/*"]
 
 # TODO: Add features
 [features]
-
-# [[test]]
-# path = "tests/lib.rs"
 
 [profile.release]
 lto = true
